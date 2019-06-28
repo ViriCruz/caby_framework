@@ -1,0 +1,14 @@
+@mixin reset-list
+  margin: $preferedm
+  padding: $preferedp
+  list-style: none
+
+
+@mixin horizontal-list
+  @include reset-list
+
+  li
+    display: inline-block
+    
+.list-horizontal
+    @include horizontal-list

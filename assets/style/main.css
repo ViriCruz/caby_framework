@@ -363,11 +363,85 @@ textarea {
   padding: 0.2em 0;
 }
 
-article {
-  background-color: #f72210;
+.list-horizontal {
+  margin: 15px;
+  padding: 10px;
+  list-style: none;
 }
 
-ul {
-  color: #f72210;
+.list-horizontal li {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px 0 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-900 {
+  max-width: 900px;
+  padding: 0 15px 0 15px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.co-12 {
+  width: 100%;
+}
+
+.co-11 {
+  width: 91.66667%;
+}
+
+body {
+  font-size: 16px;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 30px 0 15px 0;
+  font-size: 3rem;
+  color: blue;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 20px 0 10px 0;
+  color: #3333ff;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 16px 0 8px 0;
+  color: #4d4dff;
+}
+
+h4 {
+  font-size: 1.8rem;
+  margin: 12px 0 7px 0;
+  color: #5757ff;
+}
+
+h5 {
+  font-size: 1.6rem;
+  margin: 10px 0 5px 0;
+  color: #6b6bff;
+}
+
+h6 {
+  font-size: 1.4rem;
+  margin: 8px 0 3px 0;
+  color: #8080ff;
 }
 /*# sourceMappingURL=main.css.map */

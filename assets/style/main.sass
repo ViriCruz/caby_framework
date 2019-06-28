@@ -1,11 +1,21 @@
-$color1: #f72210
-$color2: #333
+$gabyfontscheme: sans-serif, Arial, Helvetica
+$titlecolor: blue
+$secondcolor: lightblue
+
+$emphasiscolor: red
+
+$preferedm: 15px
+$preferedp: 10px
+    
+    
+$subemphasiscolor: lighten($emphasiscolor, 15%)
+
+
+
 
 @import partials/reset
-
-article
-    background-color: $color1
-
-ul
-    color: $color1    
+@import partials/lists
+@import partials/grid
+@import partials/layout
+   
 

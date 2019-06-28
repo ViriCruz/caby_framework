@@ -1,0 +1,25 @@
+
+
+@mixin slight-gutter
+    padding: 0 15px 0 15px
+    
+.container
+    width: 100%
+    @include slight-gutter
+    
+    margin-right: auto
+    margin-left: auto
+
+
+.container-900
+    max-width: 900px
+    @include slight-gutter
+
+
+.row
+    display: flex
+
+.co-12
+    width: 100%
+.co-11
+    width: (100% / 12) * 11
