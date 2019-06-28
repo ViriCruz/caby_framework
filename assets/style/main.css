@@ -373,6 +373,16 @@ textarea {
   display: inline-block;
 }
 
+li a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+
+li a:hover {
+  color: #555;
+}
+
 .container {
   width: 100%;
   padding: 0 15px 0 15px;
