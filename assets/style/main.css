@@ -519,4 +519,20 @@ h6 {
   background-color: #eee;
   border: 1px solid #444;
 }
+
+div[class*="row"] {
+  padding: 10px 0 20px 0;
+}
+
+.bg-1 {
+  background-color: #f9f9f9;
+}
+
+.bg-2 {
+  background-color: #bbb;
+}
+
+.bg-3 {
+  background-color: #999;
+}
 /*# sourceMappingURL=main.css.map */
