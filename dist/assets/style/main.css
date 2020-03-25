@@ -1,0 +1,316 @@
+code {
+  background-color: #16457f;
+  border-radius: 3px;
+  font-weight: 600;
+  color: #f5f5f5;
+  padding: 0.5rem;
+}
+
+table {
+  background: #fff;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #d2d2d2;
+  padding: 10px;
+}
+
+tr th:first-child, tr td:first-child {
+  width: 30%;
+}
+
+tr th:last-child, tr td:last-child {
+  width: 70%;
+}
+
+.card {
+  background-color: #fff !important;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(51, 51, 51, 0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(51, 51, 51, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(51, 51, 51, 0.24);
+}
+
+.container-900 .row .col-example {
+  border-radius: 0;
+  border: 1px solid #d2d2d2;
+}
+
+.row > [class^=c-] {
+  border: none;
+  background: none;
+}
+
+nav .row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  nav {
+    position: static;
+  }
+}
+.odinlogo > div {
+  display: inline-block;
+}
+.odinlogo > div:nth-of-type(1) a {
+  display: block;
+  width: 45px;
+}
+.odinlogo > div:nth-of-type(1) a img {
+  width: 100%;
+}
+
+.display-menu span {
+  width: 22px;
+  height: 2px;
+  margin: 5px 10px 0px 12px;
+  background-color: #6abfc3;
+  display: block;
+}
+
+.links li {
+  display: none;
+}
+
+.odin-header {
+  font-family: "Caesar Dressing", cursive;
+  text-decoration: none;
+  color: #cc9543;
+  font-size: 20px;
+}
+
+@media (min-width: 450px) {
+  .odin-header {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) {
+  .links li {
+    display: inline-block;
+  }
+
+  .odin-header {
+    font-size: 30px;
+  }
+
+  .display-menu {
+    display: none;
+  }
+}
+.links li:nth-of-type(2) {
+  border-right: 1px solid #bbb;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+.links li:nth-of-type(2) a {
+  display: inline-block;
+}
+.links li:nth-of-type(2) a::after {
+  color: rgba(74, 74, 74, 0.7);
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+.links li:last-of-type {
+  position: relative;
+}
+.links a {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: 800;
+  padding: 10px;
+}
+.links a:hover {
+  color: black;
+}
+
+.user-image {
+  background: url("../img/8964341.jpg") 0 0/cover no-repeat;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.profile {
+  background: url("../img/8964341.jpg") 0 0/cover no-repeat;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+main h2,
+main h3 {
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+}
+main header .profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main header .profile-card h2 {
+  color: rgba(74, 74, 74, 0.7);
+}
+main header .border-shadow {
+  flex-direction: column;
+  align-items: center;
+}
+main header .border-shadow p {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  main header .profile-card {
+    flex-direction: row;
+  }
+  main header .border-shadow {
+    flex-direction: row;
+  }
+}
+main header h1 {
+  text-align: center;
+  color: #cc9543;
+  font-weight: 100;
+}
+main p {
+  color: rgba(74, 74, 74, 0.7);
+  line-height: 1.88em;
+}
+main a {
+  color: rgba(74, 74, 74, 0.7);
+  text-decoration: underline;
+}
+main a:hover {
+  color: black;
+  text-decoration: none;
+}
+main .skills p,
+main .more-info p {
+  text-align: center;
+}
+main .skills a,
+main .more-info a {
+  color: #cc9543;
+}
+main .skills .huge,
+main .more-info .huge {
+  font-size: 35px;
+}
+main .modules .mod-img {
+  background: url("../img/badge.svg") 50%/80% no-repeat;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
+}
+main .modules h3 {
+  font-size: 20px;
+}
+main .modules .mod-details {
+  padding: 0 0 0 20px;
+}
+main .modules .mod-details a {
+  text-decoration: none;
+}
+main .modules .mod-details span {
+  color: rgba(74, 74, 74, 0.7);
+}
+main .modules .mod-button {
+  width: 100%;
+  text-align: center;
+}
+main .modules .mod-button a {
+  widows: 100%;
+  display: block;
+  background-color: #6abfc3;
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding: 1rem 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+main .modules article .row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+main .modules article .row div:first-child {
+  flex-direction: column;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  main .modules article .row {
+    flex-direction: row;
+  }
+  main .modules article .row div:first-child {
+    flex-direction: row;
+    text-align: center;
+  }
+}
+main .more-info .mod-button a {
+  background-color: #cc9543;
+}
+
+.border-shadow {
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+footer {
+  padding: 30px 0;
+}
+footer .row > div {
+  text-align: center;
+}
+footer .row > div i {
+  font-size: 24px;
+  color: #cc9543;
+}
+footer a {
+  text-decoration: none;
+  color: rgba(74, 74, 74, 0.7);
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: left;
+}
+footer .odin-header {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=main.css.map */
