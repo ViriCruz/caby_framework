@@ -12,7 +12,9 @@ In this project was developed a super light CSS Framework that could be used for
 * basic styles for almost all html elements
 
 # Live Demo
-[Sample using caby framework](https://carloshdelreal.github.io/caby_cssframework/)
+[Sample using caby framework](https://viricruz.github.io/caby_cssframework/)
+
+[Documentation examples](https://viricruz.github.io/caby_cssframework/samples.html)
 
 # How to contribute and partipate
 Fork this repo and submit a PR for review and potential merge to main branch. Feel free to leave feedback :smile:
