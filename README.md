@@ -1,5 +1,5 @@
 # Caby The CSS Framework
-In this project was developed a super light CSS Framework that could be used for the development of websites that demands the usage of a grid system. as a sample, was created a clone of the Odin Project Dashboard, this project was developed using structure and methodology of The Odin Project. and supervised, and approved for a TSE of Microverse https://www.microverse.org/ for this project we have to implement the techniques learned in the odin project as well as in the microverse program.
+In this project was developed a super light CSS Framework that could be used for the development of websites that demands the usage of a grid system, as a sample was created a clone of the Odin Project Dashboard, this project was developed using structure and methodology of The Odin Project. and supervised, and approved for a TSE of Microverse https://www.microverse.org/ for this project we have to implement the techniques learned in the odin project as well as in the microverse program.
 
 # Technologies used in this project
 - HTML 5
