@@ -16,6 +16,11 @@ In this project was developed a super light CSS Framework that could be used for
 
 [Documentation examples](https://viricruz.github.io/caby_cssframework/samples.html)
 
+## Running the tests
+
+Currently this project doesn't count with automated tests for the moment.
+
+
 # How to contribute and partipate
 Fork this repo and submit a PR for review and potential merge to main branch. Feel free to leave feedback :smile:
 
