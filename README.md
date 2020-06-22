@@ -2,6 +2,8 @@
 This project is a super light CSS Framework that could be used for the development of websites that demands the usage of a grid system, as a sample was created a clone of the Odin Project Dashboard, this project was developed using structure and methodology of The Odin Project.
 For this project, we have to implement the techniques learned in the Odin project as well as in the microverse program.
 
+<p><img src="https://s3.amazonaws.com/poly-screenshots.angel.co/Project/66/1125106/22dba46d1d0a76b32f105813790e8d42-original.jpg" alt="Caby"/> </p>
+
 # Technologies used in this project
 - HTML 5
 - CSS3
