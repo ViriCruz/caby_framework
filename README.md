@@ -1,5 +1,6 @@
 # Caby The CSS Framework
-In this project was developed a super light CSS Framework that could be used for the development of websites that demands the usage of a grid system, as a sample was created a clone of the Odin Project Dashboard, this project was developed using structure and methodology of The Odin Project. and supervised, and approved for a TSE of Microverse https://www.microverse.org/ for this project we have to implement the techniques learned in the odin project as well as in the microverse program.
+This project is a super light CSS Framework that could be used for the development of websites that demands the usage of a grid system, as a sample was created a clone of the Odin Project Dashboard, this project was developed using structure and methodology of The Odin Project.
+For this project, we have to implement the techniques learned in the Odin project as well as in the microverse program.
 
 # Technologies used in this project
 - HTML 5
@@ -7,27 +8,34 @@ In this project was developed a super light CSS Framework that could be used for
 - SASS
 
 # Features
-* breakpoints for small screens, medium and large screens
-* classes to create columns and rows
-* basic styles for almost all html elements
+* Breakpoints for small screens, medium and large screens.
+* Classes to create columns and rows.
+* Basic styles for almost all HTML elements.
 
+# Potential future features
+ - Add a larger color palette.
+ - Add more text utilities to change color and size.
+ 
 # Live Demo
-[Sample using caby framework](https://viricruz.github.io/caby_cssframework/)
+[Sample using Caby Framework](https://viricruz.github.io/caby_cssframework/)
 
 [Documentation examples](https://viricruz.github.io/caby_cssframework/samples.html)
 
 ## Running the tests
 
-Currently this project doesn't count with automated tests for the moment.
+Currently, this project doesn't count with automated tests for the moment.
 
-
-# How to contribute and partipate
-Fork this repo and submit a PR for review and potential merge to main branch. Feel free to leave feedback :smile:
+# How to contribute and participate
+Fork this repo and submit a PR for review and potential merge to the main branch. Feel free to leave feedback. :smile:
 
 # Authors
 👨‍💻 **Gabriela Cruz**
 
-- Github: [@viricruz](https://github.com/viricruz)
+- Github [@viricruz](https://github.com/ViriCruz/)
+
+- Email me at viridiana.cruz.olivera@gmail.com
+
+- LinkedIn [@viricruz](https://www.linkedin.com/in/viricruz/)
 
 👨‍💻 **Carlos Del Real**
 
